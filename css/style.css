@@ -1,0 +1,237 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Noto Sans TC;
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+   width: 100%;
+   height: auto;
+   margin: auto;
+   background-color: #eeeeee;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.logo {
+    width: 119px;
+}
+ .menu {
+    width: 544px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+   list-style: none;
+   height: auto;
+   
+   }
+  .item { 
+    font-style: normal;
+    font-size: 18px;
+    line-height: 0px;
+    color: #000000;
+    display: inline;
+    margin: 4px;
+  }
+  .community {
+    width: 100%;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .community_item {
+  width: 114px;
+  height: 30px;
+  margin: auto;
+  }
+
+.index_banner01 {
+    background-image: url('../image/camping_34_1440x400.png');
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+
+.p1 {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: left;
+    color: #ffffff
+}
+.p4 {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.type_banner01 {
+    width: 306px;
+    height: 147px;
+    margin: auto;
+    margin-left: 200px;
+}
+
+ .indextext1 {
+    width: 800px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .indextext1_a {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0px;
+    color: #327e37;
+    text-align: center;
+ }
+ .indextext1_b {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 18px;
+    color: #454545;
+ }
+ .indextext2 {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+ }
+.indextext2_1 {
+    background-image: url('../image/camping_27_400x300.jpg');
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.indextext2_a {
+    width: 350px;
+    height: auto;
+    margin-left: 40px;
+
+
+}
+.indextext2_aa {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0px;
+    color: #327e37;
+    text-align: center;
+}
+.indextext2_ab {
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 18px;
+    color: #454545;
+}
+.index_banner02 {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    background-image: url('../image/camping_105_1440x300.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+               
+}
+.index_banner02_conv {
+    width: 260px;
+    height: 90px;
+    margin: center;
+}
+.type_banner02 {
+    width: 260px;
+    text-align: center;
+
+}
+.p2 {
+    font-family: Noto Sans TC;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0px;
+    color: #ffffff
+
+}
+.button_banner02 {
+    width: 260px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.orderbutton {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #00c9d6;
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0px;
+    color:#ffffff;  
+
+}
+.introbutton {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #00c9d6;
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0px;
+    color:#ffffff; 
+
+}
+
+.footer {
+    width: 1200px;
+    height: 64px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logo {
+    width: 119px;
+    margin: center;
+
+}
+
