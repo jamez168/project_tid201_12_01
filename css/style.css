@@ -244,4 +244,47 @@ body {
     margin: center;
 
 }
+.introduction_01 {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.introduction1_1 {
+    background-image: url('../image/camping_31_400x300.jpg');
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.introduction_01conv {
+    width: 350px;
+    height: auto;
+    margin-left: 40px;
+}
+.introduction1_a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0px;
+    color: #327e37;
+}
+.introduction1_b {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 18px;
+    color: #454545;
+}
+.introduction1_button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #00c9d6;
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0px;
+    color:#ffffff; 
+}
 
